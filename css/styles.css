@@ -345,6 +345,8 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 /*Portfolio*/
