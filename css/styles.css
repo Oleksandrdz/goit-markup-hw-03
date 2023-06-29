@@ -174,7 +174,7 @@ body {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  border: none;
+  border: 1px solid(--btn-clr);
   border-radius: 4px;
 }
 
