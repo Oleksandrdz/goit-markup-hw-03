@@ -56,27 +56,24 @@ img {
   margin-bottom: 72px;
 }
 .card-title-posit {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .card-txt-posit {
-  margin-bottom: 32px;
 }
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  margin-right: 76px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--subsid-color);
   display: inline-block;
-  margin-bottom: 16px;
 }
 .logo-valut {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 76px;
 }
 
 .logo-ligh {
@@ -85,8 +82,6 @@ img {
 
 .logo-dark {
   color: var(--log-stud-col);
-  margin-bottom: 16px;
-  display: inline-block;
 }
 :root {
   --subsid-color: #4d5ae5;
@@ -101,7 +96,7 @@ img {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--backgr-color);
   color: var(--body-color);
 }
@@ -137,6 +132,7 @@ body {
   color: var(--ancillary-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -176,6 +172,10 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .order-btn:hover,
@@ -205,6 +205,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .advantage {
   padding-top: 120px;
@@ -300,7 +301,6 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
-  padding-top: 120px;
 }
 
 .employ-list {
@@ -310,13 +310,11 @@ body {
 }
 
 .employ-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: var(--backgr-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 48px) / 3);
 }
 .empl-card {
   padding: 32px 16px;
@@ -339,7 +337,6 @@ body {
 
 .vault {
   background: var(--dark-bgr);
-  width: 1440px;
   padding: 100px 0;
 }
 
@@ -349,8 +346,6 @@ body {
   line-height: 1.5;
   color: var(--log-stud-col);
   width: 264px;
-  margin-bottom: 16px;
-  display: inline-block;
 }
 
 /*Portfolio*/
@@ -383,14 +378,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--ancillary-color);
-  padding-left: 16px;
 }
 
 .specification-p {
   letter-spacing: 0.02em;
   color: var(--body-color);
   line-height: 1.5;
-  padding-left: 16px;
 }
 .btn-list {
   display: flex;
@@ -413,7 +406,6 @@ body {
 .fold {
   padding-top: 96px;
   padding-bottom: 120px;
-  width: calc((100% - 48px) / 3);
 }
 .all-cont-posit {
   width: calc((100% - 48px) / 3);
