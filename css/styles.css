@@ -174,7 +174,7 @@ body {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  border: 1px solid(--btn-clr);
+  border: none;
   border-radius: 4px;
 }
 
@@ -413,5 +413,8 @@ body {
 .fold {
   padding-top: 96px;
   padding-bottom: 120px;
+  width: calc((100% - 48px) / 3);
+}
+.all-cont-posit {
   width: calc((100% - 48px) / 3);
 }
