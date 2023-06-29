@@ -63,6 +63,7 @@ img {
   margin-bottom: 32px;
 }
 .logo {
+  display: inline-block;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -71,6 +72,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--subsid-color);
+}
+.logo-valut {
+  margin-bottom: 16px;
 }
 
 .logo-ligh {
@@ -109,8 +113,6 @@ body {
 }
 
 .page-footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .page-nav {
@@ -332,8 +334,7 @@ body {
 
 .vault {
   background: var(--dark-bgr);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .vault-txt {
