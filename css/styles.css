@@ -106,8 +106,6 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .page-footer-container {
