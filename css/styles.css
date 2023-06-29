@@ -75,6 +75,7 @@ img {
 }
 .logo-valut {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-ligh {
@@ -83,6 +84,8 @@ img {
 
 .logo-dark {
   color: var(--log-stud-col);
+  margin-bottom: 16px;
+  display: inline-block;
 }
 :root {
   --subsid-color: #4d5ae5;
@@ -114,6 +117,7 @@ body {
 }
 
 .page-footer-container {
+  margin-bottom: 16px;
 }
 
 .page-nav {
