@@ -118,7 +118,6 @@ body {
 
 .page-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 .menu {
@@ -133,6 +132,7 @@ body {
   color: var(--ancillary-color);
   padding-top: 24px;
   padding-bottom: 24px;
+
   display: block;
 }
 .menu-link:hover,
@@ -175,7 +175,8 @@ body {
   border-radius: 4px;
   padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-btn:hover,
